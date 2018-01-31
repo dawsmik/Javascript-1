@@ -177,16 +177,120 @@
 //   case (userAge)
 // }
 
-var userAge = confirm('Are you over 18?');
+// var userAge = confirm('Are you over 18?');
+//
+// if(userAge == true) {
+//   underEighty = confirm('are you under 80 years old');
+//   if(underEighty)
+//     var likeStarWars confirm('Do you like star wars?');
+//     if(likeStarWars) {
+//       alert('you rock');
+//     }
+//   } else {
+//     confirm('Do you like prunes?')
+//   }
 
-if(userAge == true) {
-  underEighty = confirm('are you under 80 years old');
-  if(underEighty){
-    var starWars confirm('Do you like star wars?');
+// var arr = ['thingOne', 22, true, {}, []];
+// console.log(arr[0], arr[3]);
+
+// var myInfo = ["Game of Thrones",7,false,1993,];
+// // console.log(myInfo);
+// // console.log(myInfo.length);
+// // console.log(typeof(myInfo));
+// // console.log(Array.isArray(myInfo));
+// var bestTeacher = prompt('who is the best teacher?', 'Damon');
+// myInfo.unshift(bestTeacher);
+//
+//
+// console.log(myInfo);
+
+
+
+//Homework:
+
+// var yourName = prompt("What's yo name?","Your name here.");
+// var lastName = prompt("What's yo last name?","Your name here.");
+// var userName = prompt("What's yo user name?","Your username here.");
+//
+// var colorPick = prompt("What yo favorite color?", "red, orange, yellow, green, blue, pink, purple, black, white, grey");
+//
+// colorPick = colorPick.toLowerCase();
+
+// switch(colorPick){
+//   case "red":
+//   case "orange":
+//       alert(yourName + ", You picked orange or red, your're probably dead.");
+//   //ES6 string interpolation
+//       alert(`Hey there, ${yourName} it looks like you love ${colorPick}.`);
+//       break;
+//   case "yellow":
+//       alert(yourName + ", You picked yellow, your're probably mellow.");
+//        break;
+//   case "green":
+//         alert(yourName + ", You picked green, your're probably mean.");
+//         break;
+//   case "blue":
+//         alert(yourName + ", You picked blue, who knew?");
+//         break;
+//   case "pink":
+//         alert(yourName + ", You picked pink, gosh you stink.");
+//         break;
+//   case "grey":
+//         alert(yourName + ", You picked grey, get out of my way.");
+//         break;
+//   case "purple":
+//         alert(yourName + ", You picked purple, your're probably durple.");
+//         break;
+//   case "black":
+//         alert(yourName + ", You picked black, gosh you're wack.");
+//         break;
+//   case "white":
+//         alert(yourName + ", You picked white, your're probably tight.");
+//         break;
+//   default:
+//         alert(yourName + ", You picked wrong, go fire up the bong.");
+//         }
+//
+//
+// var arr = [1,2,3,4,5];
+//
+// if(arr.index)
+
+favMovie1 = ["Pulp Fiction", "Samuel"];
+favMovie2 = ["Die Hard", "Bruce"];
+favMovie3 = ["Seven", "Bradd"];
+favMovie4 = ["Tombstone", "Val"];
+favMovie5 = ["Gladiator", "Joaquin"];
+
+myFavoriteMovies = [];
+
+myFavoriteMovies.push(favMovie1, favMovie2, favMovie3, favMovie4, favMovie5);
+
+//console.log(myFavoriteMovies);
+
+//movieTitles = myFavoriteMovies[]
+
+var favAndLeastfav = [];
+favAndLeastfav.push(favMovie1[0], favMovie5[0]);
+
+
+// let i = 0;
+//
+// while (i < myFavoriteMovies.length) {
+//   console.log(myFavoriteMovies[i]);
+//   i++;
+
+//
+// }
+
+
+
+for(var i = 0; i < myFavoriteMovies.length; i++) {
+
+  if(myFavoriteMovies[i][0] === "Tombstone") {
+    alert(`${myFavoriteMovies[i][0]} is my favorite with ${myFavoriteMovies[i][1]}.`);
   }
-    if(starWars) {
-      alert('you rock');
-    }
-  } else {
-    confirm('Do you like prunes?')
-  }
+
+  console.log("Tombstone");
+
+}
